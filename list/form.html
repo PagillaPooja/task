@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<fieldset>
+  <center>
+    <h2>Registration Form</h2>
+    <form>
+        
+      <table border="0" cellspacing="0" cellpadding="8">
+        <tr>
+          <td>First Name :</td>
+          <td><input type="text" placeholder="Enter First Name" required></td>
+        </tr>
+        <tr>
+          <td>Last Name :</td>
+          <td><input type="text" placeholder="Enter Last Name" required></td>
+        </tr>
+        <tr>
+          <td>Email :</td>
+          <td><input type="email" placeholder="Enter Email Address" required></td>
+        </tr>
+        <tr>
+          <td>Password :</td>
+          <td><input type="password" required></td>
+        </tr>
+        <tr>
+          <td>Gender :</td>
+          <td>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+          </td>
+        </tr>
+        <tr>
+          <td>Age :</td>
+          <td><input type="number" min="1" max="120"></td>
+        </tr>
+        <tr>
+          <td>Preferences :</td>
+          <td>
+            <input type="checkbox"> Acrylic Painting
+            <input type="checkbox"> Oil Painting
+            <input type="checkbox"> Water Color Painting
+          </td>
+        </tr>
+        <tr>
+          <td>Occupation :</td>
+          <td>
+            <select>
+              <option>Student</option>
+    
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Bio :</td>
+          <td>
+            <textarea rows="5" cols="40" placeholder="Share few lines about yourself..."></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="reset" value="RESET">
+            <input type="submit" value="SUBMIT">
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    </form>
+  </center>
+</body>
+</html>

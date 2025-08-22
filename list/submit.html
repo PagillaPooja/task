@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="./submit.html" method="get">
+    <table cellpadding="6">
+    <tr>
+    <td><label>First Name:&nbsp;&nbsp;&nbsp;</label></td>
+    <td><input type="text" placeholder="Enter First Name"></td>
+    </tr>
+    <tr>
+    <td><label>Last Name:&nbsp;&nbsp;&nbsp;</label></td>
+    <td><input type="text" placeholder="Enter Last Name"></td>
+    </tr>
+    <tr>
+    <td><label>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+    <td><input type="text" placeholder="Enter Email Address"></td>
+    </tr>
+    <tr>
+    <td><label>Password:&nbsp;&nbsp;&nbsp;</label></td>
+    <td><input type="password"></td>
+    </tr>
+    <tr>
+    <td><label>Gender:</label></td>
+    <td>
+          <label><input type="radio" name="gender" value="male"> Male</label><br>
+          <label><input type="radio" name="gender" value="female"> Female</label><br>
+          <label><input type="radio" name="gender" value="other"> Other</label>
+        </td>
+    </tr>
+    <tr>
+    <td><label for="age">Age:</label></td>
+    <td><input type="number"id="age"name="age"></td>
+    </tr>
+    <tr>
+    <td><label>Preferences:</label></td>
+    <br>
+    <td><label for="painting">Acrylic Painting</label>
+    <input type="checkbox" name="painting" id="painting" >
+  <br>
+    <label for="painting">Oil Painting</label>
+    <input type="checkbox" name="painting" id="painting" >
+<br>
+    <label for="painting">Water Coolor Painting</label>
+    <input type="checkbox" name="painting" id="painting" ></td>
+    </tr>
+    <tr>
+    <td><label>Select Occupation</label></td>
+    <td><select name="occ" id="selected">
+      <option>Student</option>
+    </select>
+    </td>
+    </tr>
+    <tr>
+    <td><label for="bio">Bio</label></td>
+    <td><textarea name="bio" rows="10" cols="30">Share a few lines about yourself</textarea></td>
+    </tr>
+     <tr>
+        <td></td>
+        <td>
+          <input type="reset" value="RESET">
+          <input type="submit" value="SUBMIT">
+        </td>
+      </tr>
+  </table>
+</form>
+</body>
+</html>
